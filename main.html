@@ -108,7 +108,7 @@
 
     <div class="container">
 
-          <form class="form-signin">
+          <form class="form-signin" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>">
             <h2 class="form-signin-heading">Sign Up Form</h2>
             <input type="text" id="inputfname" class="form-control" placeholder="First Name" name="reg_fname" required />
             <input type="text" id="inputlname" class="form-control" placeholder="Last Name" name="reg_lname" required />
