@@ -1,0 +1,76 @@
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
+
+.content-block-one {
+  padding: 60px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: #eee;
+  text-align:center;
+}
+.content-block-one h1,
+.content-block-one .h1 {
+  color: inherit;
+}
+.content-block-one p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.content-block-one > hr {
+  border-top-color: #d5d5d5;
+}
+.container .content-block-one {
+  border-radius: 6px;
+}
+.content-block-one .container {
+  max-width: 100%;
+}
+
+	.carousel-caption
+			{
+				position: absolute;
+				right: 0;
+				bottom: 25%;
+				left: 0;
+				z-index: 10;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				color: #fff;
+				text-align: top;
+				background: rgba(0,0,0,0.4);
+			}
+
+
+
+/*Parallax section*/
+#section-1 {
+    z-index: 1;
+    color: #fff;
+    height: 100vh;
+}
+#section-1 .row {
+    position: fixed;
+}
+.content-space-two {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: white;
+
+  background:  linear-gradient(
+  	rgba(0,0,0,0.6),
+  	rgba(0,0,0,0.6)
+  	),
+
+  url(https://image.ibb.co/gm7ND5/snowsmall.png) no-repeat center center fixed; \
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}

@@ -1,0 +1,30 @@
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
+
+.content-block-one {
+  padding: 30px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: #eee;
+}
+.content-block-one h1,
+.content-block-one .h1 {
+  color: inherit;
+}
+.content-block-one p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.content-block-one > hr {
+  border-top-color: #d5d5d5;
+}
+.container .content-block-one {
+  border-radius: 6px;
+}
+.content-block-one .container {
+  max-width: 100%;
+}
