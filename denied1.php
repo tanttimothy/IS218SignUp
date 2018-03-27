@@ -39,6 +39,35 @@
   </div>
 </div>
 
+<div class="content-block-one">
+<p> </p>
+<br>
+	<div class="container">
+
+          <form class="form-signin" method="get" action="input.php">
+            <h2 class="form-signin-heading">Sign Up Form</h2>
+            <input type="text" id="inputfname" class="form-control" placeholder="First Name" name="reg_fname" required />
+            <input type="text" id="inputlname" class="form-control" placeholder="Last Name" name="reg_lname" required />
+            <input type="text" id="email_addr" class="form-control" placeholder="E-mail Address" name="reg_email" required />
+            <input type="text" id="phone_num" class="form-control" placeholder="Phone #" name="reg_phone" required />
+            <input type="date" id="b_day" class="form-control" placeholder="DOB" name="reg_bday" required />
+            <input type="text" id="gender_" class="form-control" placeholder="Gender" name="reg_gender" required />
+            <br />
+            <input type="password" id="pass_wrd" class="form-control" placeholder="Password" name="reg_pass" required />
+            <br />
+            <button class="btn btn-lg btn-primary btn-block" type="submit" id="submitButton">Sign Up!</button>
+        </form>
+
+<form class="form-signin" method="get" action="login.php">
+   <h2 class="form-signin-heading">Login Here</h2>
+            <input type="text" id="email_addr" class="form-control" placeholder="E-mail Address" name="reg_email" required />
+            <input type="password" id="pass_wrd" class="form-control" placeholder="Password" name="reg_pass" required />
+            <br />
+            <button class="btn btn-lg btn-primary btn-block" type="submit" id="submitButton">Welcome Back!</button>
+        </form>
+<br>
+</div>
+
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -108,27 +137,7 @@
 
     <div class="container">
 
-          <form class="form-signin" method="get" action="input.php">
-            <h2 class="form-signin-heading">Sign Up Form</h2>
-            <input type="text" id="inputfname" class="form-control" placeholder="First Name" name="reg_fname" required />
-            <input type="text" id="inputlname" class="form-control" placeholder="Last Name" name="reg_lname" required />
-            <input type="text" id="email_addr" class="form-control" placeholder="E-mail Address" name="reg_email" required />
-            <input type="text" id="phone_num" class="form-control" placeholder="Phone #" name="reg_phone" required />
-            <input type="date" id="b_day" class="form-control" placeholder="DOB" name="reg_bday" required />
-            <input type="text" id="gender_" class="form-control" placeholder="Gender" name="reg_gender" required />
-            <br />
-            <input type="password" id="pass_wrd" class="form-control" placeholder="Password" name="reg_pass" required />
-            <br />
-            <button class="btn btn-lg btn-primary btn-block" type="submit" id="submitButton">Sign Up!</button>
-        </form>
-
-<form class="form-signin" method="get" action="login.php">
-   <h2 class="form-signin-heading">Login Here</h2>
-            <input type="text" id="email_addr" class="form-control" placeholder="E-mail Address" name="reg_email" required />
-            <input type="password" id="pass_wrd" class="form-control" placeholder="Password" name="reg_pass" required />
-            <br />
-            <button class="btn btn-lg btn-primary btn-block" type="submit" id="submitButton">Welcome Back!</button>
-        </form>
+      
 
       </div> 
   <h1> Follow me at: </h1>
